@@ -11,7 +11,7 @@ const SearchBar = ({ onSearch }) => {
             onSearch(query);
             setError('');
         } else {
-            setError('Please enter a search term');
+            setError('*Please enter a search term');
         }
     };
 
